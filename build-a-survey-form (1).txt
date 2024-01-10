@@ -1,0 +1,65 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">We want to know more about you!</h1>
+    <p id="description">Please fill the formular</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Full name: <input required id="name" type="text" placeholder="Peter Parker" /></label><br>
+        <label id="email-label">Email Address: <input required id="email" type="email" placeholder="peterparker@gmail.com" /></label><br>
+        <label id="number-label">Age: <input required id="number" type="number" min="1" max="120" placeholder="21" /></label>
+      </fieldset>
+      <fieldset>
+        <label>Do you have a source of money?<br><input type="radio" name="radio" value="Yes" /> Yes</label><br>
+        <label><input type="radio" name="radio" value="Yes" /> No</label>
+        
+      </fieldset>
+      <fieldset>
+        <label>Which degree do you have?<br>
+           <select id="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">Associate degree (undergraduate)</option>
+              <option value="2">Bachelor's degree (undergraduate)</option>
+              <option value="3">Master's degree (graduate)</option>
+              <option value="4">Doctoral degree (graduate)</option>
+            </select>
+        </label>
+      </fieldset>
+      <fieldset>
+          <label>Please choose the checkboxes which suit you:<br>
+            <input type="checkbox" value="1" /> I have no degrees<br>
+            <input type="checkbox" value="2" /> I am a minor<br>
+            <input type="checkbox" value="3" /> I have no valid papers<br>
+          </label>
+      </fieldset>
+      <fieldset>
+        </label>
+        <label>Provide a bio:<br>
+          <textarea rows="3" cols="30" placeholder="I like coding..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" />
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  max-width: 500px;
+  margin: auto;
+  display: center;
+  font-family: Tahoma;
+}
+
+** end of undefined **
+
