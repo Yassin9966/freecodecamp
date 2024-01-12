@@ -1,0 +1,63 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tribute Page of Muhammed Ali</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Muhammed Ali</h1>
+      <div id="img-div">
+        <img id="image" src="https://img.welt.de/img/kultur/literarischewelt/mobile245768380/3331628337-ci23x11-w1136/Cassius-Clay.jpg" alt="An image of muhammed Ali">
+        <figcaption id="img-caption">
+          An image of Muhammed Ali
+        </figcaption>
+      </div>
+      <p id="tribute-info"><a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Muhammad_Ali#:~:text=Muhammad%20Ali%20(%2F%C9%91%CB%90%CB%88l,American%20professional%20boxer%20and%20activist.">Muhammad Ali</a>, born on January 17, 1942, as Cassius Marcellus Clay Jr., stands as one of the most iconic and celebrated figures in the history of boxing. His legacy extends far beyond the realm of sports, encompassing not only his remarkable athletic achievements but also his social activism and charismatic persona.
+
+Ali's journey in boxing commenced at an early age, revealing his exceptional talent. In 1960, at the age of 18, he clinched the Olympic gold medal in the light heavyweight division. However, it was his victory over Sonny Liston in 1964 for the World Heavyweight title that marked his true breakthrough. It was during this momentous occasion that he declared to the world that he was no longer Cassius Clay but Muhammad Ali, a name that would resonate through the annals of boxing history.
+
+Ali became renowned not only for his prowess inside the ring but also for his eloquence outside of it. His quick wit and charismatic personality made him a captivating figure, transcending the sport of boxing. He often used rhyme and clever wordplay to taunt his opponents, creating a spectacle that extended beyond mere physicality.
+
+Beyond his boxing career, Ali became a symbol of resistance and activism during a tumultuous era in the United States. His refusal to be drafted into the military during the Vietnam War, citing religious and moral objections, led to his suspension from boxing and the stripping of his titles. This sacrifice, however, exemplified his unwavering commitment to his principles.
+
+Ali's resilience and determination were further evident when he returned to the ring after a three-year hiatus. He reclaimed the heavyweight title in 1974, defeating George Foreman in the historic "Rumble in the Jungle" in Zaire, showcasing his mastery of strategy and skill.
+
+Outside of the sport, Ali was a powerful advocate for civil rights and social justice. His impact extended globally, and his humanitarian efforts were recognized with numerous awards, including the Presidential Medal of Freedom.
+
+Muhammad Ali's life was a tapestry woven with triumphs, challenges, and a steadfast commitment to his convictions. His legacy continues to inspire not only those within the boxing world but also individuals striving for social change and standing up against injustice. Muhammad Ali remains an enduring symbol of resilience, courage, and the indomitable spirit of a true champion.</p>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-div {
+  padding: 10px;
+  border: 5px solid grey;
+}
+p.solid {border-style: solid;}
+body {
+  text-align: center;
+  font-family: 	Courier New, Monospace;
+}
+figcaption {
+  font-weight: 600;
+}
+#image {
+  max-width: 100%;
+  height:auto;
+}
+
+** end of undefined **
+
