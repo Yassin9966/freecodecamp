@@ -1,0 +1,72 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>Header of Navigation Bar</header>
+        <ul>
+          <li><a href="#JavaScript" class="nav-link">JavaScript</a></li>
+          <li><a href="#Java" class="nav-link">Java</a></li>
+          <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+          <li><a href="#Difference" class="nav-link">Difference</a></li>
+          <li><a href="#Reference" class="nav-link">Reference</a></li>
+        </ul>
+      </nav>
+      <header>JavaScript and Java</header>
+      <section class="main-section" id="JavaScript">
+        <header>JavaScript</header>
+        <p>1. Text</p>
+        <p>2. Text<br><code>1. Code</code></p>
+      </section>
+      <section class="main-section" id="Java">
+        <header>Java</header>
+        <p>3. Text</p>
+        <p>4. Text<br><code>2. Code</code></p>
+      </section>
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <p>5. Text</p>
+        <p>6. Text<br><code>3. Code</code></p>
+      </section>
+      <section class="main-section" id="Difference">
+        <header>Difference</header>
+        <p>7. Text</p>
+        <p>8. Text<br><code>4. Code</code></p>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <p>9. Text</p>
+        <p>10. Text<br><code>5. Code</code></p>
+        <ul>
+          <li>1. List</li>
+          <li>2. List</li>
+          <li>3. List</li>
+          <li>4. List</li>
+          <li>5. List</li>
+        </ul>
+      </section>
+
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+** end of undefined **
+
