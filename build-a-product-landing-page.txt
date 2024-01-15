@@ -1,0 +1,90 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Courses</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header id="header">  
+      <nav id="nav-bar">
+        <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/711/711284.png" width="5%" />
+        <p><a class="nav-link" href="#video">Video</a></p>
+        <p><a class="nav-link" href="#form">Enter Your Email</a></p>
+        <p><a class="nav-link" href="#courses">Courses</a></p>
+      </nav>
+    </header>
+    <main>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/sNgnwahAlzk?si=pLSdCBqjjULlK-Ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>Enter your E-Mail Address:</p>
+        <input type="email" name="email" required id="email" placeholder="example@gmail.com" />
+        <input id="submit" type="submit" value="Submit">
+        <br>
+        <div id="courses">
+          <div id="course">
+            <h3>HTML COURSE</h3>
+            <p>100$</p>
+            <input id="button" type="button" value="Select">
+          </div>
+          <div id="course">
+            <h3>CSS COURSE</h3>
+            <p>200$</p>
+            <input id="button" type="button" value="Select">
+          </div>
+          <div id="course">
+            <h3>JAVASCRIPT COURSE</h3>
+            <p>300$</p>
+            <input id="button" type="button" value="Select">
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  background-color: rgb(220, 220, 161);
+}
+
+.nav-link {
+  margin: 10px;
+}
+
+#course {
+  margin: 10px;
+}
+
+#courses {
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: beige;
+  }
+}
+
+body {
+  background-color: beige;
+  font-family: Lucida Console, Monospace;
+  padding: 100px;
+  margin: auto;
+  width: 50%;
+}
+
+
+** end of undefined **
+
