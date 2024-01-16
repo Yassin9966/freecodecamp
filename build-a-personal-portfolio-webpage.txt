@@ -1,0 +1,94 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header>  
+      <nav id="navbar">  
+        <a href="#welcome-section"> Welcome </a>
+        <a href="#projects"> Projects </a>
+        <a href="#portfolio"> Portfolio </a>
+      </nav>  
+    </header>
+    <main>
+      <section id="welcome-section">
+        <h1>Welcome!</h1>
+      </section>
+      <section id="projects">
+        <h1 class="project-tile">Project Title</h1>
+        <p><a href="#">Project Link</a></p>
+      </section>
+      <section id="portfolio">
+        <p><a id="profile-link" href="https://github.com/Yassin9966/freecodecamp" target="_blank">GitHub Link</a></p>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #283618;
+  padding: 20px;
+}
+body {
+  background-color: #FEFAE0;
+  font-family: Helvetica, Sans-serif;
+}
+header {
+  text-align: center;
+}
+a:link {
+  color: #BC6C25;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #BC6C25;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #606C38;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #BC6C25;
+  background-color: transparent;
+  text-decoration: none;
+}
+a {
+  font-size: 20px;
+  margin: 50px
+}
+#welcome-section, #projects, #portfolio {
+  text-align: center;
+  color: #BC6C25;
+  font-weight: 800;
+  font-size: 40px;
+  margin: 100px 0;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #FEFAE0;
+  }
+}
+
+** end of undefined **
+
